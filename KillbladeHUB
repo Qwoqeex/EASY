@@ -7,7 +7,11 @@ local tab2 = Main:CreateTab("Other")
 local tab3 = Main:CreateTab("ESP")
 
 
-tab:CreateButton("PC/Mobile(L)",function()
+tab:CreateButton("Azure",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+end)
+
+tab:CreateButton("Legit/Rage",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/pid4k/scripts/main/universalaimbot.lua', true))()
 end)
 
