@@ -78,6 +78,10 @@ tab2:CreateButton("AntiRecoil",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Qwoqeex/KBHUBCreator/refs/heads/main/anti%20recoil'))()
 end)
 
+tab2:CreateButton("AntiRecoil(M)",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Qwoqeex/KBHUBCreator/refs/heads/main/mobile%20anti%20recoil'))()
+end)
+
 tab2:CreateButton("Visible SZ",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Qwoqeex/KBHUBCreator/refs/heads/main/SafeZoneVisible'))()
 end)
@@ -86,8 +90,8 @@ tab2:CreateButton("Del XMAS",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Qwoqeex/KBHUBCreator/refs/heads/main/Delete%20XMAS'))()
 end)
 
-tab2:CreateButton("TP PC(Y)",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Qwoqeex/KBHUBCreator/refs/heads/main/tp%20100%20studs'))()
+tab2:CreateButton("TP(Y)",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Qwoqeex/KBHUBCreator/refs/heads/main/tp%2050%20studs'))()
 end)
 
 tab2:CreateButton("TP Mobile",function()
